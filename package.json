@@ -1,0 +1,22 @@
+{
+  "name": "boaspraticas",
+  "version": "1.0.0",
+  "description": "BoasPracticasCypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ACTraverso/BoasPraticas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ACTraverso/BoasPraticas/issues"
+  },
+  "homepage": "https://github.com/ACTraverso/BoasPraticas#readme",
+  "dependencies": {
+    "cypress": "^14.0.0"
+  }
+}
