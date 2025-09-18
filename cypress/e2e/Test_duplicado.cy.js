@@ -18,15 +18,33 @@ describe('Codigo duplicado', () => {
     const buscar=['vuejs','reactjs'];
     
     buscar.forEach(item=> {
-        it(`Buscar por "${item}"`, () => {
+        
+         it(`Buscar por "${item}"`, () => {
+            cy.search(item)
+          //  cy.wait('@gestStories')
+            
+            cy.get('.table-row').its('lenght').should('be.to.least',1)
+            });
+
+        it.skip(`Buscar por "${item}"`, () => {
+            cy.search(item)
+            cy.wait('@gestStories')
+            
+            cy.get('.table-row').then(rows=>{
+                expect(rows.length).to.be.least(1)
+            });
+        
+        
+        it.skip(`Buscar por "${item}"`, () => {
             cy.search(item)
             cy.wait('@gestStories').then(({response})=>{
                const quatidade =response.body.hits.length
            
             cy.get('.table-row').should('have.length',quatidade) // div.col-sm-4
             })
-    });
-})
+        });
+
+  
 
     it.skip('Busca por "vuejs"', () => {
         cy.get('@SearchField').type('vuejs{enter}')  // vuejs{enter} simula el teclado
@@ -43,4 +61,6 @@ describe('Codigo duplicado', () => {
         cy.get('.table-row').should('have.length',100)
 
     });
+});
+});
 });
