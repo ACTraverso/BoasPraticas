@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1758311041420' stop='1758311066693'>
+    <name>Realizar Login</name>
+    <title>Realizar Login</title>
+    <test-cases>
+        <test-case start='1758311041420' status='passed' stop='1758311049831'>
+            <name>Realizar Login com sucesso</name>
+            <title>Realizar Login com sucesso</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1758311049878' status='passed' stop='1758311054069'>
+            <name>Realizar Login com Email y Pass com error</name>
+            <title>Realizar Login com Email y Pass com error</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1758311054117' status='passed' stop='1758311058729'>
+            <name>Realizar Login com Email valido y Pass com error</name>
+            <title>Realizar Login com Email valido y Pass com error</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1758311058788' status='passed' stop='1758311063317'>
+            <name>Realizar Login com Email com error y Pass com valido</name>
+            <title>Realizar Login com Email com error y Pass com valido</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1758311063366' status='passed' stop='1758311066693'>
+            <name>Realizar Login sin informar Email y Pass</name>
+            <title>Realizar Login sin informar Email y Pass</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

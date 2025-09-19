@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1758310985893' stop='1758311012995'>
+    <name>Búsqueda de productos</name>
+    <title>Búsqueda de productos</title>
+    <test-cases>
+        <test-case start='1758310985893' status='passed' stop='1758311003390'>
+            <name>Resultados Dress</name>
+            <title>Resultados Dress</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1758311003483' status='passed' stop='1758311007897'>
+            <name>Resultados T-Shirt</name>
+            <title>Resultados T-Shirt</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1758311007978' status='passed' stop='1758311012995'>
+            <name>Resultados Jeans</name>
+            <title>Resultados Jeans</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

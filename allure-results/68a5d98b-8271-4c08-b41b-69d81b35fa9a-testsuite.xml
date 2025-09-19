@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1758311017423' stop='1758311023078'>
+    <name>Agregar producto al carrito</name>
+    <title>Agregar producto al carrito</title>
+    <test-cases>
+        <test-case start='1758311017423' status='passed' stop='1758311023077'>
+            <name>Suma un producto</name>
+            <title>Suma un producto</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

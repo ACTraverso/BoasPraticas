@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1758311070411' stop='1758311080756'>
+    <name>Pruebas de navegación</name>
+    <title>Pruebas de navegación</title>
+    <test-cases>
+        <test-case start='1758311070413' status='passed' stop='1758311073978'>
+            <name>Verificar: Home</name>
+            <title>Verificar: Home</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1758311074004' status='passed' stop='1758311076070'>
+            <name>Verificar: Products</name>
+            <title>Verificar: Products</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1758311076097' status='passed' stop='1758311078420'>
+            <name>Verificar: Cart</name>
+            <title>Verificar: Cart</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1758311078451' status='passed' stop='1758311080756'>
+            <name>Verificar: Login</name>
+            <title>Verificar: Login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
